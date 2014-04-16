@@ -1,8 +1,12 @@
 chrome-dev-tools-talk
 =====================
 
-Uses reveal-md 
+Uses reveal
 
 `npm install`
-`npm install -g reveal-md`
-`reveal-md slides.md`
+
+`npm install -g browserify`
+
+`npm install -g gulp`
+
+`gulp`
