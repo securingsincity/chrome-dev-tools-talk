@@ -1,0 +1,132 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title reveal.js - The HTML Presentation Framework
+
+    meta(name="description" content="A framework for easily creating presentations")
+    meta(name="author" content="Hakim El Hattab")
+
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    meta(name="apple-mobile-web-app-status-bar-style" content="black-translucent")
+
+    meta(name="viewport" content="width=device-width,"
+                                +"initial-scale=1.0,"
+                                +"maximum-scale=1.0,"
+                                +"user-scalable=no")
+
+    link(rel="stylesheet" href="index.css")
+
+  body
+    .reveal
+      // Any section element inside of this container is displayed as a slide
+      .slides
+        section
+          h1 Chrome Dev Tools
+          ul
+            li Open Chrome
+            li Go to the hamburger icons > tools > Developer Tools
+            li You're done
+            li END OF TALK
+        section
+          h1 Elements Tab
+          ul
+            li Edit Html
+            li Edit CSS
+            li Edit styles
+            li add CSS classes
+            li events and event listeners
+        section
+          h1 Edit Html
+            img(src="images/edit-html.png")
+        section
+          h1 Edit CSS
+            img(src="images/edit-css.png")
+        section
+          h1 Network Tab
+          ul
+            li Monitor traffic
+            li Filter traffic
+            li If you need better tools you should be using Wireshark or Fiddler
+        section
+          h1 Monitor Traffic
+            img(src="images/network.png")
+        section
+          h1 Network Details
+            img(src="images/network-details.png")
+        section
+          h1 Sources Tab
+          ul
+            li Edit JS files
+            li Set Breakpoints!
+            li Step Debugging!
+            li Watch expressions
+            li Evaluate in console
+        section
+          h1 Sources
+            img(src="images/sources.png")
+        section
+          h1 Sources
+            img(src="images/breakpoints.png")
+        section
+          h1 Console
+          ul
+            li logging to the console
+              ul
+               li console.log(), console.error()
+            li available in all other tabs
+            li evaluate when in step debugging
+        section
+          h1 Console
+          img(src="images/console.png")
+        section
+          h1 Settings - Emulation
+          ul
+            li Device emulation
+            li Screen size emulation
+            li Location
+            li usb Debugging
+        section
+          h1 Settings - Emulation
+          img(src="images/emulation.png")
+        section
+          h1 Settings - Rendering
+          ul
+            li Show paint rectangles - great for looking for DOM memory leaks
+            li Show fps meter
+            li Show Composite layer borders
+        section
+          h1 Settings - Rendering
+          img(src="images/rendering.png")
+        section
+          h1 Resources
+          ul
+            li Cookies
+              ul
+                li delete as you see fit
+            li Local storage
+              ul
+                li Great for backbone.localStorage
+         section
+           h2 Profile/Timeline/Audits
+           ul
+             li Profile
+               ul
+                 li CPU time to execute different js functions
+                 li great for seeing where your heavy js functions
+             li Timeline
+               ul
+                 li look at memory usage per function
+                 li time to execute functions but also to render
+             li Audits
+               ul
+                 li Web page performance
+                 li localized version of Google Page Speed
+                   a(href="https://developers.google.com/speed/pagespeed/") https://developers.google.com/speed/pagespeed/
+
+         section
+          h1 THE END
+          h2 BY James
+          a(href="https://github.com/securingsincity/chrome-dev-tools-talk") https://github.com/securingsincity/chrome-dev-tools-talk
+
+    script(src="/index-dev.js")
